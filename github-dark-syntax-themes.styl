@@ -1,0 +1,207 @@
+/* ==UserStyle==
+@name         GitHub Dark Syntax Themes
+@version      0.0.0
+@description  A Syntax theme switcher for GitHub Dark
+@namespace    StylishThemes
+@author       StylishThemes
+@homepageURL  https://github.com/StylishThemes/GitHub-Dark-Syntax-Themes
+@supportURL   https://github.com/StylishThemes/GitHub-Dark-Syntax-Themes/issues/new/choose
+@updateURL    https://github.com/StylishThemes/GitHub-Dark-Syntax-Themes/github-dark-syntax-themes.css
+@license      BSD-2-Clause
+@preprocessor stylus
+@var select syntaxTheme "Choose syntax theme" [
+	"Ambiance",
+	"Base16 Ocean Dark",
+	"Chaos",
+	"Clouds Midnight",
+	"Cobalt",
+	"Dracula",
+	"GitHub Dark",
+	"Idle Fingers",
+	"Kr Theme",
+	"Material",
+	"Merbivore",
+	"Merbivore Soft",
+	"Mono Indistrial",
+	"Mono Indistrial Clear",
+	"Monokai",
+	"Monokai Spacegray Eighties",
+	"Obsidian",
+	"One Dark",
+	"Pastel on Dark",
+	"Railcasts",
+	"Solarized Dark",
+	"Terminal",
+	"Tomorrow Night",
+	"Tomorrow Night Blue",
+	"Tomorrow Night Bright",
+	"Tomorrow Night Eighties",
+	"Twilight",
+	"Vibrant Ink",
+	"Custom"
+]
+
+@var color color-01 "Color 1"  #00f
+@var color color-02 "Color 2"  #24c2c7
+@var color color-03 "Color 3"  #cda869
+@var color color-04 "Color 4"  #cf7ea9
+@var color color-05 "Color 5"  #78cf8a
+@var color color-06 "Color 6"  #aac6e3
+@var color color-07 "Color 7"  #ffb795
+@var color color-08 "Color 8"  #eed1b3
+@var color color-09 "Color 9"  #faded3
+@var color color-10 "Color 10" #fa8d6a
+@var color color-11 "Color 11" #555
+@var color color-12 "Color 12" #8f9d6a
+@var color color-13 "Color 13" #9d937c
+@var color color-14 "Color 14" #d2a8a1
+@var color color-15 "Color 15" #ff0
+@var color color-16 "Color 16" #99c
+@var color color-17 "Color 17" #fee4ff
+@var color color-18 "Color 18" #9b859d
+@var color color-19 "Color 19" #ffc0cb
+@var color color-20 "Color 20" #f4c20b
+@var color color-21 "Color 21" #ff9d00
+@var color color-22 "Color 22" #af2018
+@var color color-23 "Color 23" #0f0
+@var color color-24 "Color 24" #f22
+@var color color-25 "Color 25" #e6e1dc
+@var color color-26 "Color 26" #202020
+@var color color-27 "Color 27" #000
+@var color color-28 "Color 28" #3d3d3d
+@var color color-29 "Color 29" #4d4d4d
+@var color color-30 "Color 30" #111
+@var color color-31 "Color 31" #aaa
+@var color color-32 "Color 32" #7991e8
+@var color color-33 "Color 33" rgba(255, 255, 255, .15)
+@var color color-34 "Color 34" rgba(255, 255, 255, .1)
+@var color color-35 "Color 35" rgba(255, 255, 255, .031)
+==/UserStyle== */
+@-moz-document regexp("^https?://((education|gist|guides|docs|lab|raw|resources|status|developer|support)\\.)?github\\.com/((?!generated_pages/preview).)*$"), domain("githubusercontent.com"), domain("graphql-explorer.githubapp.com"), domain("www.githubstatus.com") {
+  :root {
+    if syntaxTheme=="Ambiance" {
+      /* colors are not in order or correct this is initial commit only */
+      --color-01: #cf7ea9;
+      --color-02: #9b859d;
+      --color-03: #24c2c7;
+      --color-04: #99c;
+      --color-05: #555;
+      --color-06: #aac6e3;
+      --color-07: #af2018;
+      --color-08: #00f;
+      --color-09: #ffc0cb;
+      --color-10: #cda869;
+      --color-11: #f4c20b;
+      --color-12: #8f9d6a;
+      --color-13: #9d937c;
+      --color-14: #d2a8a1;
+      --color-15: #ff0;
+      --color-16: #99c;
+      --color-17: #fee4ff;
+      --color-18: #9b859d;
+      --color-19: #ffc0cb;
+      --color-20: #f4c20b;
+      --color-21: #ff9d00;
+      --color-22: #af2018;
+      --color-23: #0f0;
+      --color-24: #f22;
+      --color-25: #e6e1dc;
+      --color-26: #202020;
+      --color-27: #000;
+      --color-28: #3d3d3d;
+      --color-29: #4d4d4d;
+      --color-30: #111;
+      --color-31: #aaa;
+      --color-32: #7991e8;
+      --color-33: rgba(255, 255, 255, .15);
+      --color-34: rgba(255, 255, 255, .1);
+      --color-35: rgba(255, 255, 255, .031);
+    }
+    else if syntaxTheme=="Twilight" {
+      /* colors are not in order or correct this is initial commit only */
+      --color-01: #fc0;
+      --color-02: #d6bb6d;
+      --color-03: #cda869;
+      --color-04: #777;
+      --color-05: #8da6ce;
+      --color-06: #f00;
+      --color-07: #ff6400;
+      --color-08: #aeaeae;
+      --color-09: #faded3;
+      --color-10: #fa8d6a;
+      --color-11: #555;
+      --color-12: #8f9d6a;
+      --color-13: #9d937c;
+      --color-14: #d2a8a1;
+      --color-15: #ff0;
+      --color-16: #99c;
+      --color-17: #fee4ff;
+      --color-18: #9b859d;
+      --color-19: #ffc0cb;
+      --color-20: #f4c20b;
+      --color-21: #ff9d00;
+      --color-22: #af2018;
+      --color-23: #0f0;
+      --color-24: #f22;
+      --color-25: #e6e1dc;
+      --color-26: #202020;
+      --color-27: #000;
+      --color-28: #3d3d3d;
+      --color-29: #4d4d4d;
+      --color-30: #111;
+      --color-31: #aaa;
+      --color-32: #7991e8;
+      --color-33: rgba(255, 255, 255, .15);
+      --color-34: rgba(255, 255, 255, .1);
+      --color-35: rgba(255, 255, 255, .031);
+    }
+    else if syntaxTheme=="Custom" {
+      /* These are correct assignments jsust look out for removing unneed entries  */
+      --color-01: color-01;
+      --color-02: color-02;
+      --color-03: color-03;
+      --color-04: color-04;
+      --color-05: color-05;
+      --color-06: color-06;
+      --color-07: color-07;
+      --color-08: color-08;
+      --color-09: color-09;
+      --color-10: color-10;
+      --color-11: color-11;
+      --color-12: color-12;
+      --color-13: color-13;
+      --color-14: color-14;
+      --color-15: color-15;
+      --color-16: color-16;
+      --color-17: color-17;
+      --color-18: color-18;
+      --color-19: color-19;
+      --color-20: color-20;
+      --color-21: color-21;
+      --color-22: color-22;
+      --color-23: color-23;
+      --color-24: color-24;
+      --color-25: color-25;
+      --color-26: color-26;
+      --color-27: color-27;
+      --color-28: color-28;
+      --color-29: color-29;
+      --color-30: color-30;
+      --color-31: color-31;
+      --color-32: color-32;
+      --color-33: color-33;
+      --color-34: color-34;
+      --color-35: color-35;
+    }
+  }
+  /* Codemirror */
+
+
+  /* github */
+
+
+  /* jupyter */
+
+
+  /* hljs */
+}
