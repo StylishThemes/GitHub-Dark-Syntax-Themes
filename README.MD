@@ -1,3 +1,4 @@
+
 <p align="center">
   <img alt="githubdark-logo" src="https://cdn.jsdelivr.net/gh/StylishThemes/logos@master/github.dark/githubdark-mini.svg" width="580">
 </p>
@@ -21,7 +22,7 @@ Adding new color themes will be simpler, since they will follow an established p
 this will cut implementation time of any theme by 2 thirds at least.
 
 No more implementing only Github themes with missing counterparts.
-this will be utterly disalowed by design. Anyone implementing a new theme has to complete all entreis, test and ensure maximum bug free and consistency.
+this will be utterly disalowed by design. Anyone implementing a new theme has to complete all entries, test and ensure maximum bug free and consistency.
 
 ## Design methodology
 
@@ -122,17 +123,17 @@ each OLD implementation we are basing this on within themes dir was pretty much 
 
 Therefore the themes need cleaning up and asserting templates after some cleanup/pre work.
 
-- [ ] Alphebetize all selectors in all themes Codemirror, GitHub, Jupyter
+- [ ] Alphabetize all selectors in all themes Codemirror, GitHub, Jupyter
       (this will allow some sane order to extract the colors so that later these colors can be assigned in a way that works with the new design.)
 - [ ] Extract colors
       Consider limiting each pallete to a fixed number of colors, currently some codemirror has 35 unique colors, there are 35 CSS vars then, too many IMO,
       Not all themes have 35 colors even, so K.I.S.S.
 - [ ] These extracted colors need to be grouped greys with greys, greens with greens, reds with reds etch and so on, I think =)
 - [ ] Assign extracted colors to the CSS vars
+- [ ] Assign CSS vars in a manner that it works as close as possible to the actual themes (twilight will look like twilight, jupyter will look like jupyter etc).
 - [ ] Implement `hljs` stylesheet, used in Github doc sites and graphql.
 - [ ] Include missing diff colors and other syntax related selectors in respective themes so all colors match including diff colors etc.
-- [ ] Add selectors for each theme is releavnt part
-- [ ] Assign CSS vars in a manner that it works as close as possible to the actual themes (twilight will look like twilight, jupyter will look like jupyter etc).
+- [ ] Add selectors for each theme is releavant part
 - [ ] Ship it.
 
 Something else I forget Im sure at this time, this is to get ball rolling.
@@ -141,7 +142,7 @@ Something else I forget Im sure at this time, this is to get ball rolling.
 
 By all means, this is an insane undertaking, boring tedious work, we should coordinate so each person is doing one job no one else is doing, feel free to open an issue to discuss this.
 
-ATM this job was self assigned, why IDK, but it needs doing, our sytax themes are insanely broken.
+ATM this job was self assigned, why IDK, but it needs doing, our syntax themes are insanely broken.
 
 ## Considerations
 
