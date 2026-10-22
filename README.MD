@@ -1,3 +1,5 @@
+**Retired:** the syntax themes are built into [GitHub Dark](https://github.com/StylishThemes/GitHub-Dark) now.
+
 
 <p align="center">
   <img alt="githubdark-logo" src="https://cdn.jsdelivr.net/gh/StylishThemes/logos@master/github.dark/githubdark-mini.svg" width="580">
